@@ -1,4 +1,4 @@
-package com.softserve;
+package com.softserve.service;
 
 import com.softserve.service.RemoveDuplicatesService;
 import org.junit.jupiter.api.Assertions;
