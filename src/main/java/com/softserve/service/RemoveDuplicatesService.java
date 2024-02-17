@@ -7,7 +7,7 @@ public class RemoveDuplicatesService {
 
     public String removeDuplicates(String str) {
         if (str == null)
-            return "";
+            return null;
 
         // using a Map to get immediate access to chars that have been processed
         Map<Character, Integer> processedChars = new HashMap<>();

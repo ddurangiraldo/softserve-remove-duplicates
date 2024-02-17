@@ -9,7 +9,7 @@ public class RemoveDuplicatesServiceTest {
 
     @Test
     public void test_nullString() {
-        Assertions.assertEquals("", service.removeDuplicates(null));
+        Assertions.assertNull(service.removeDuplicates(null));
     }
 
     @Test
